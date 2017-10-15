@@ -1,0 +1,17 @@
+#main_content {
+    margin-top: 32px;
+}
+
+#sidebar {
+    width: 30%;
+    float: left;
+    background-color: white;
+}
+
+#content {
+    width: 60%;
+    background-color: white;
+    float: left;
+    margin-left: 32px;
+    height: 250px;
+}
