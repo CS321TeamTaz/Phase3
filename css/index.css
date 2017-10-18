@@ -123,3 +123,12 @@
 #featured_student_desc {
     text-align: center;
 }
+
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    #news_card, #events_card, #featured_person_card,
+    #student_resources_card, #publications_card,
+    #location_card, #minor_card {
+      width:100%;
+    }
+  }

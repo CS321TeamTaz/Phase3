@@ -140,8 +140,12 @@ body {
     box-shadow: 1px 1px 2px grey;     
 }
 
-.generic_card .topic_header {
+.generic_card .topic_header a {
     color: rgb(155, 22, 29);
     margin-left:12px; 
     text-decoration: underline; 
+}
+
+.generic_card .topic_header a:visited {
+    color: rgb(155, 22, 29);
 }
