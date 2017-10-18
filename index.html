@@ -9,6 +9,7 @@
   <meta name="author" content="Taz">
 
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/index.css">
   
 </head>
 
@@ -36,6 +37,7 @@
         </div>
       </li>
       <li id="navbar_item"><a href="#">Events</a></li>
+      <li id="navbar_item"><a href="#">News</a></li>
       <li id="navbar_item"><a href="#">Faculty</a></li>
       <li id="navbar_item"><a href="#">Contact</a></li>
     </ul>
@@ -55,31 +57,90 @@
   </div>
 
   <div id="main_content">
-    <div id="news_card" class="generic_card">
-      <h2 class="topic_header">News</h2>
-    </div>
-    <div id="events_card" class="generic_card">
-        <h2 class="topic_header">Upcoming Events</h2>
-    </div>
-    <div id="featured_person_card" class="generic_card">
-        <h2 class="topic_header">Featured Student</h2>
-    </div>
 
-    <div id="student_resources_card" class="generic_card">
-        <h2 class="topic_header">Student Resources</h2>
+    <div>
+      <div id="news_card" class="generic_card">
+        <h2 class="topic_header">News</h2>
+        <div class="card_content">
+          <div class="news_post">
+            <a href="#">Link to news article</a></br>
+            <label class="news_card_date">Sunday Oct. 15, 2017</label>
+            <div class="news_card_desc">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div id="events_card" class="generic_card">
+        <h2 class="topic_header">Upcoming Events</h2>
+        <div class="card_content">
+          <div class="event_post">
+            <div class="event_image_wrapper">
+              <div class="event_image_month">Aug</div>
+              <div class="event_image_day">24</div>
+            </div>
+            <div class="event_content">
+              <p>
+                <a href="./src/indv-news-article.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+              </p>
+            </div>
+          </div>
+                
+          <div class="event_post">
+            <div class="event_image_wrapper">  
+              <div class="event_image_month">Dec</div>
+              <div class="event_image_day">16</div>  
+            </div>
+            <div class="event_content">
+              <p>
+                <a href="./src/indv-news-article.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="featured_person_card" class="generic_card">
+        <h2 class="topic_header">Featured Student</h2>
+        <div class="card_content">
+          <div class="student_card">
+            <div id="featured_student_image_wrapper">
+                <img id="featured_student_image" src="./img/featured_student.jpg">
+            </div>
+            <h2><a href="./src/indv-featured-student.html">Karlie James</a></h2>
+            <div id="featured_student_desc">
+              <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div id="combo_card">
+    
+    <div>
+      <div id="student_resources_card" class="generic_card">
+          <h2 class="topic_header">Student Resources</h2>
+      </div>
+      <div id="combo_card">
         <div id="publications_card" class="generic_card">
-            <h2 class="topic_header">Publications</h2>
+          <h2 class="topic_header">Publications</h2>
         </div>
         <div id="location_card" class="generic_card">
             <h2 class="topic_header">Where are we?</h2>
         </div>
+      </div>
+        
+      <div id="minor_card" class="generic_card">
+        <h2 class="topic_header">Interested in a History Minor?</h2>
+      </div>
     </div>
     
-    <div id="minor_card" class="generic_card">
-        <h2 class="topic_header">Interested in a History Minor?</h2>
-    </div>
         
   </div>
 

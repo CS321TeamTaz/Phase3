@@ -73,6 +73,10 @@ body {
     text-align: left;
 }
 
+.dropdown_menu .dropdown_item:hover {
+    color: white !important;
+}
+
 .dropdown_button:hover .dropdown_menu {
     display: block;
 }
@@ -140,57 +144,4 @@ body {
     color: rgb(155, 22, 29);
     margin-left:12px; 
     text-decoration: underline; 
-}
-
-#news_card {
-    float: left;
-    width: 25%;
-    height: 150px;
-    margin-left: 0px; 
-}
-
-#events_card {
-    float: left;
-    width: 40%;
-    height: 150px;
-    
-}
-
-#featured_person_card {
-    float: left;
-    width: 25%;
-    height: 150px;
-    margin-right: 0px; 
-}
-
-#student_resources_card {
-    float: left;
-    width: 25%;
-    height: 200px;
-    margin-left: 0px; 
-}
-
-#publications_card {
-    float: left;
-    width: 100%;
-    height: 75px;
-}
-
-#minor_card {
-    float: left;
-    width: 25%;
-    height: 200px;
-    margin-right: 0px; 
-}
-
-#location_card{
-    float: left;
-    width: 100%;
-    height: 75px;
-}
-
-#combo_card {
-    float: left;
-    width: 40%;
-    margin: 2.5%;
 }
