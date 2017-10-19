@@ -82,8 +82,8 @@
 }
 
 .event_card_img_wrapper {
-    width: 150px;
-    height: 150px;
+    width: 30%;
+   
     margin: auto;
     float: left;
 }
@@ -95,7 +95,7 @@
 .event_card_content {
     float: left;
     margin-left: 16px; 
-    width: 70%;
+    width: 65%;
     height: 100%;
 }
 
