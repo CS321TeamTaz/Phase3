@@ -78,7 +78,7 @@
 }
 
 .event_card_img_wrapper {
-    width: 20%;
+    width: 100px;
     margin: auto;
     float: left;
 }
@@ -132,3 +132,10 @@
         float: left;
     }
   }
+
+@media only screen and (max-width:1200px) {
+    .event_card_img_wrapper {
+        width: 75px;
+        height: 75px;
+    }
+}
