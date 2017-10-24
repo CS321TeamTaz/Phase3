@@ -16,12 +16,14 @@ function rotate_carousel(destination) {
     for(i = 0; i < controls.length; i++) {
         controls[i].style.backgroundColor = "grey";
     }
-    
-    carouselIndex++;
+
+    carouselIndex++; 
     if (carouselIndex > slides.length) {
         carouselIndex = 1;
     }
     
+    console.log("destination: " + destination + ".     carousel index: " + carouselIndex);
+
     slides[carouselIndex-1].style.display = "block";
     controls[carouselIndex-1].style.backgroundColor = "rgb(155, 22, 29)";
 

@@ -51,3 +51,12 @@ p {
     padding-bottom: 8px;
 }
 
+#text-image{
+    width: 30%;
+    margin: auto;
+    float: right;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
