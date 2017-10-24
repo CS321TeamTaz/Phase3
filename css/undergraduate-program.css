@@ -1,7 +1,6 @@
 p {
     padding-left: 50px;
     padding-right: 50px;
-    
 }
 
 #main_content {
@@ -26,7 +25,7 @@ p {
 .sidebar_header {
     color: rgb(155, 22, 29);
     margin-left: 16px;
-    margin-top: 16px;  
+    margin-top: 16px;
 }
 
 .sidebar_list {
@@ -51,7 +50,7 @@ p {
     padding-bottom: 8px;
 }
 
-#text-image{
+#text-image {
     width: 30%;
     margin: auto;
     float: right;
@@ -59,4 +58,3 @@ p {
     padding-right: 50px;
     padding-bottom: 10px;
 }
-
